@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Avenir Next";
+}
+  
+li {
+    list-style: none;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #CD5C5C;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.header-logo {
+    float: left;
+    color:#fff;
+    font-size: 36px;
+    padding: 10px 40px;
+    letter-spacing: 20px;
+}
+  
+.header-list a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-list a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+  }
+.container h1 {
+    font-size: 40px;
+}
+.container h2 {
+    font-size: 30px;
+}
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    color:#CD5C5C;
+    text-align: center;
+   
+}
+  
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+  
+.top-wrapper p {
+    margin-bottom: 3px;
+}
+
+.about-me {
+    background-image: url(https://images.unsplash.com/photo-1497005367839-6e852de72767?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80);
+    background-size: 150%;
+    padding: 40px 0px;
+
+}
+.about-me h1 {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    padding: 0px;
+    color: #CD5C5C;
+    text-shadow: 10px;
+}
+   
+.about-me p {
+    font-family:cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-content: justify;
+    padding-bottom: 10px;
+
+}
+.My-skills h1{
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    padding: 0px;
+    color: #CD5C5C;
+    text-shadow: 10px;
+}
+.My-skills p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+    padding-top: 0px;
+    padding-inline-start: 10px;
+    padding-bottom: 10px;
+}
+.My-skills li {
+    font-family:cursive;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    padding-left: 60px;
+    
+}
+.My-skills {
+    background-image: url(https://images.unsplash.com/photo-1515204230490-1ad00b70ed3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 5px;
+    color: #fff;
+    height: 100%;
+    align-content: center;
+}
+.container img {
+    height: 5%;
+    width: 5%;
+    align-content: center;
+}
+.section {
+    text-align: center;
+
+}
